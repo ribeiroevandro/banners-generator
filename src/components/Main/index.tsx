@@ -15,7 +15,7 @@ interface CheckboxOption {
 }
 
 const Main = ({
-  title = 'Gerador de Banners',
+  title = 'Gerador de Posts',
   description = 'Gerando banners para README.md e criando projetos fantasticos'
 }) => {
   const formRef = useRef<FormHandles>(null)
